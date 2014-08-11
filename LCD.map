@@ -1,0 +1,1701 @@
+MPLINK 4.40, Linker
+Linker Map File - Created Wed Apr 23 17:27:40 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+                   .cinit    romdata   0x000006    program   0x000002
+        .code_generator.o       code   0x000008    program   0x001c9e
+             .code_proc.o       code   0x001ca6    program   0x00196c
+         .code_vfprintf.o       code   0x003612    program   0x000c22
+                     PROG       code   0x004234    program   0x00066c
+           .code_sincos.o       code   0x0048a0    program   0x0005aa
+             .stringtable    romdata   0x004e4a    program   0x00032a
+             .code_main.o       code   0x005174    program   0x0002b2
+          .code_spi_LCD.o       code   0x005426    program   0x0001ee
+     .code_switch_poten.o       code   0x005614    program   0x00018e
+         .code_UnpkMath.o       code   0x0057a2    program   0x00011c
+          .code_sprintf.o       code   0x0058be    program   0x0000ac
+               _cinit_scn       code   0x00596a    program   0x00009e
+             .code_putc.o       code   0x005a08    program   0x000084
+          .romdata_proc.o    romdata   0x005a8c    program   0x000070
+          .code_fxm3232.o       code   0x005afc    program   0x000070
+                   STRING       code   0x005b6c    program   0x000066
+             .code_fabs.o       code   0x005bd2    program   0x000066
+              .code_sin.o       code   0x005c38    program   0x000050
+         .code_fxd3232u.o       code   0x005c88    program   0x000048
+             D10KTCYXCODE       code   0x005cd0    program   0x00002e
+                    CTYPE       code   0x005cfe    program   0x000024
+              D1KTCYXCODE       code   0x005d22    program   0x000020
+                    .code       code   0x005d42    program   0x000020
+             _startup_scn       code   0x005d62    program   0x00001c
+                    STDIO       code   0x005d7e    program   0x00001c
+             D100TCYXCODE       code   0x005d9a    program   0x00001c
+              D10TCYXCODE       code   0x005db6    program   0x000016
+      .romdata_vfprintf.o    romdata   0x005dcc    program   0x000011
+    .romdata__user_putc.o    romdata   0x005ddd    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x005ddd    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x005ddd    program   0x000000
+          .romdata_putc.o    romdata   0x005ddd    program   0x000000
+          .idata_putc.o_i    romdata   0x005ddd    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x005ddd    program   0x000000
+       .romdata_sprintf.o    romdata   0x005ddd    program   0x000000
+       .idata_sprintf.o_i    romdata   0x005ddd    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x005ddd    program   0x000000
+          .romdata_fabs.o    romdata   0x005ddd    program   0x000000
+       .romdata_fxm3232.o    romdata   0x005ddd    program   0x000000
+          .idata_fabs.o_i    romdata   0x005ddd    program   0x000000
+         .romdata_errno.o    romdata   0x005ddd    program   0x000000
+    .idata__user_putc.o_i    romdata   0x005ddd    program   0x000000
+         .idata_errno.o_i    romdata   0x005ddd    program   0x000000
+         .idata_c018i.o_i    romdata   0x005ddd    program   0x000000
+         .romdata_c018i.o    romdata   0x005ddd    program   0x000000
+          .idata_main.o_i    romdata   0x005ddd    program   0x000000
+          .romdata_main.o    romdata   0x005ddd    program   0x000000
+       .idata_spi_LCD.o_i    romdata   0x005ddd    program   0x000000
+       .romdata_spi_LCD.o    romdata   0x005ddd    program   0x000000
+  .idata_switch_poten.o_i    romdata   0x005ddd    program   0x000000
+  .romdata_switch_poten.o    romdata   0x005ddd    program   0x000000
+          .idata_proc.o_i    romdata   0x005ddd    program   0x000000
+     .idata_generator.o_i    romdata   0x005ddd    program   0x000000
+      .romdata_UnpkMath.o    romdata   0x005ddd    program   0x000000
+      .idata_UnpkMath.o_i    romdata   0x005ddd    program   0x000000
+        .romdata_sincos.o    romdata   0x005ddd    program   0x000000
+        .idata_sincos.o_i    romdata   0x005ddd    program   0x000000
+           .romdata_sin.o    romdata   0x005ddd    program   0x000000
+           .idata_sin.o_i    romdata   0x005ddd    program   0x000000
+        .romdata___init.o    romdata   0x005ddd    program   0x000000
+        .idata___init.o_i    romdata   0x005ddd    program   0x000000
+     .romdata_generator.o    romdata   0x005ddd    program   0x000000
+            .code_errno.o       code   0x005dde    program   0x000000
+            .code_c018i.o       code   0x005dde    program   0x000000
+       .code__user_putc.o       code   0x005dde    program   0x000002
+           .code___init.o       code   0x005de0    program   0x000002
+     .config_1fff8_main.o    romdata   0x01fff8    program   0x000001
+     .config_1fff9_main.o    romdata   0x01fff9    program   0x000001
+     .config_1fffa_main.o    romdata   0x01fffa    program   0x000001
+     .config_1fffb_main.o    romdata   0x01fffb    program   0x000001
+     .config_1fffc_main.o    romdata   0x01fffc    program   0x000001
+     .config_1fffd_main.o    romdata   0x01fffd    program   0x000001
+                 .tmpdata      udata   0x000000       data   0x000022
+                MATH_DATA      udata   0x000022       data   0x000014
+                DELAYDAT2      udata   0x000036       data   0x000001
+                DELAYDAT1      udata   0x000037       data   0x000001
+                   .stack      udata   0x000e00       data   0x000100
+           .udata_c018i.o      udata   0x000f00       data   0x00000a
+           .udata_errno.o      udata   0x000f0a       data   0x000002
+       .udata_generator.o      udata   0x000f0c       data   0x000001
+        .idata_UnpkMath.o      idata   0x000f0d       data   0x000000
+           .idata_errno.o      idata   0x000f0d       data   0x000000
+            .udata_fabs.o      udata   0x000f0d       data   0x000000
+            .idata_fabs.o      idata   0x000f0d       data   0x000000
+         .udata_sprintf.o      udata   0x000f0d       data   0x000000
+         .idata_sprintf.o      idata   0x000f0d       data   0x000000
+        .udata_vfprintf.o      udata   0x000f0d       data   0x000000
+        .idata_vfprintf.o      idata   0x000f0d       data   0x000000
+        .udata_fxd3232u.o      udata   0x000f0d       data   0x000000
+        .idata_fxd3232u.o      idata   0x000f0d       data   0x000000
+         .udata_fxm3232.o      udata   0x000f0d       data   0x000000
+         .idata_fxm3232.o      idata   0x000f0d       data   0x000000
+            .udata_putc.o      udata   0x000f0d       data   0x000000
+            .idata_putc.o      idata   0x000f0d       data   0x000000
+      .udata__user_putc.o      udata   0x000f0d       data   0x000000
+      .idata__user_putc.o      idata   0x000f0d       data   0x000000
+            .idata_main.o      idata   0x000f0d       data   0x000000
+         .udata_spi_LCD.o      udata   0x000f0d       data   0x000000
+         .idata_spi_LCD.o      idata   0x000f0d       data   0x000000
+    .udata_switch_poten.o      udata   0x000f0d       data   0x000000
+    .idata_switch_poten.o      idata   0x000f0d       data   0x000000
+            .udata_proc.o      udata   0x000f0d       data   0x000000
+            .idata_proc.o      idata   0x000f0d       data   0x000000
+       .idata_generator.o      idata   0x000f0d       data   0x000000
+            .udata_main.o      udata   0x000f0d       data   0x000000
+           .idata_c018i.o      idata   0x000f0d       data   0x000000
+          .udata___init.o      udata   0x000f0d       data   0x000000
+          .idata___init.o      idata   0x000f0d       data   0x000000
+             .udata_sin.o      udata   0x000f0d       data   0x000000
+             .idata_sin.o      idata   0x000f0d       data   0x000000
+          .udata_sincos.o      udata   0x000f0d       data   0x000000
+          .idata_sincos.o      idata   0x000f0d       data   0x000000
+        .udata_UnpkMath.o      udata   0x000f0d       data   0x000000
+              SFR_BANKED0      udata   0x000f5a       data   0x000006
+            SFR_UNBANKED0      udata   0x000f60       data   0x0000a0
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x005ddc      
+                            0x005dde    0x005de1      
+                            0x01fff8    0x01fffd      
+            24039 out of 131072 program addresses used, program memory utilization is 18%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                ADC_Init1   0x005680    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                ADC_Init2   0x00569a    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                   D100_1   0x005da8    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+                    D100x   0x005da6    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+                   D10K_1   0x005cdc    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x005ce8    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x005cda    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10_1   0x005dc6    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+                     D10x   0x005dbe    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+                    D1K_1   0x005d2e    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x005d2c    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+             Delay100TCYx   0x005d9a    program     extern C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+             Delay10KTCYx   0x005cd0    program     extern C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+              Delay10TCYx   0x005db6    program     extern C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+              Delay1KTCYx   0x005d22    program     extern C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+                 FLO0832S   0x004238    program     extern C:\MCC18\v3_39\src\traditional\math\cast08FP.asm
+                 FLO0832U   0x004234    program     extern C:\MCC18\v3_39\src\traditional\math\cast08FP.asm
+                 FLO1632S   0x00425a    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x004256    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                 FLO3232S   0x004744    program     extern C:\MCC18\v3_39\src\traditional\math\cast32FP.asm
+                 FLO3232U   0x004740    program     extern C:\MCC18\v3_39\src\traditional\math\cast32FP.asm
+                    FPA32   0x004282    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                    FPD32   0x0043ae    program     extern C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    FPM32   0x004454    program     extern C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                    FPS32   0x004280    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 FXD3232U   0x005c88    program     extern C:\MCC18\v3_39\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x00452e    program     extern C:\MCC18\v3_39\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x005afc    program     extern C:\MCC18\v3_39\src\traditional\math\fxm3232.c
+                  INT3208   0x004588    program     extern C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  INT3216   0x0045d6    program     extern C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  INT3232   0x004776    program     extern C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  InitSPI   0x005426    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                LCD_Line1   0x00554c    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                LCD_Line2   0x005576    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                LCD_Reset   0x0054f8    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                  TALTB32   0x0047e4    program     extern C:\MCC18\v3_39\src\traditional\math\ltFP.asm
+               TSIGN1616A   0x00457a    program     static C:\MCC18\v3_39\src\traditional\math\fxm1616s.asm
+                WriteGPIO   0x005434    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                   _2jEnd   0x005bbc    program     static C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+       _D100TCYXCODE_0008   0x005da2    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x005dac    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x005db2    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+       _D10KTCYXCODE_0010   0x005ce0    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x005cec    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+        _D10TCYXCODE_000A   0x005dc0    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x005dc2    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x005dc4    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+        _D1KTCYXCODE_0010   0x005d32    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x005d38    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+                _UnpkMath   0x0057a2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\UnpkMath.c
+              __FpCompare   0x0047f6    program     extern C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                 __FpExit   0x004640    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                 __FpPack   0x00466c    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x004634    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x004646    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00465e    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00464c    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x004666    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x004642    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00465a    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpReturnW   0x0046c4    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0046e4    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x004714    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+           ___do_lbl00089   0x003484    program     static                          
+           ___do_lbl00090   0x003498    program     static                          
+           ___do_lbl00092   0x0033fe    program     static                          
+           ___do_lbl00095   0x0035e4    program     static                          
+           ___do_lbl00096   0x0035f8    program     static                          
+           ___do_lbl00098   0x003538    program     static                          
+         ___else_lbl00100   0x00349c    program     static                          
+         ___else_lbl00102   0x0031ac    program     static                          
+         ___else_lbl00104   0x002e9e    program     static                          
+         ___else_lbl00106   0x002c04    program     static                          
+          ___for_lbl00084   0x003324    program     static                          
+          ___for_lbl00085   0x00332a    program     static                          
+          ___for_lbl00086   0x0032e0    program     static                          
+           ___if_lbl00073   0x002988    program     static                          
+           ___if_lbl00074   0x00298a    program     static                          
+           ___if_lbl00077   0x002bfe    program     static                          
+           ___if_lbl00080   0x002e9a    program     static                          
+           ___if_lbl00083   0x0031a8    program     static                          
+           ___if_lbl00091   0x003484    program     static                          
+           ___if_lbl00097   0x0035e4    program     static                          
+           ___if_lbl00099   0x0035fa    program     static                          
+           ___if_lbl00101   0x0035fa    program     static                          
+           ___if_lbl00103   0x0035fa    program     static                          
+           ___if_lbl00105   0x0035fa    program     static                          
+       ___return_lbl00000   0x005cce    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x005b6a    program     static                          
+       ___return_lbl00001   0x005d7c    program     static                          
+       ___return_lbl00002   0x005a06    program     static                          
+       ___return_lbl00070   0x0035fa    program     static                          
+        ___while_lbl00071   0x002958    program     static                          
+        ___while_lbl00072   0x00298a    program     static                          
+        ___while_lbl00075   0x002a64    program     static                          
+        ___while_lbl00076   0x002c00    program     static                          
+        ___while_lbl00078   0x002d02    program     static                          
+        ___while_lbl00079   0x002e9c    program     static                          
+        ___while_lbl00081   0x002fa0    program     static                          
+        ___while_lbl00082   0x0031aa    program     static                          
+        ___while_lbl00087   0x0033fa    program     static                          
+        ___while_lbl00088   0x00349a    program     static                          
+        ___while_lbl00093   0x003534    program     static                          
+        ___while_lbl00094   0x0035fa    program     static                          
+               __config_0   0x01fff8    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_1   0x01fff9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_2   0x01fffa    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_3   0x01fffb    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_4   0x01fffc    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_5   0x01fffd    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+                   __init   0x005de0    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
+                   __pa_0   0x0058b0    program     static C:\MCC18\v3_39\src\traditional\stdclib\UnpkMath.c
+                   __pa_0   0x004c8e    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_0   0x003f52    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x003f5a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x004ca6    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_10   0x00400e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x004d62    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_11   0x004d74    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_11   0x00401c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x004d82    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_12   0x004032    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x004d88    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_13   0x00404c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x004064    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x004da2    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_15   0x004074    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x004db4    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_16   0x00408a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x004dd8    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_17   0x00409c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x004dea    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_18   0x0040ae    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x004df8    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_19   0x0040b8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x004e0a    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_2   0x004cc2    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_2   0x003f64    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x0040c8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x004e1a    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_21   0x004e26    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_21   0x0040d8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x004e30    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_22   0x0040e8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_23   0x004e38    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_23   0x0040f4    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x004102    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x004e3e    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_25   0x00410a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x004114    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x00411e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x004126    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x004134    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x003f6e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x004cdc    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_30   0x004150    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x00416a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x004184    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x00419c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x0041a6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x0041b4    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x0041bc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x0041c6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x0041d6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x0041e4    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x004ce6    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_4   0x003f86    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x0041f0    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x0041fc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x004204    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x00420e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x004214    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x00421e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x00422a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x003f9a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x004cfc    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_6   0x003fb6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x004d12    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_7   0x003fc0    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x004d24    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_8   0x003fcc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x004d3e    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_9   0x003fee    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x004d58    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+               __string_0   0x004e8e    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_0   0x0050a9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_1   0x004e7d    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_1   0x005098    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_10   0x0050e9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_10   0x005003    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_11   0x0050da    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_11   0x004ff2    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_12   0x0050cb    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_12   0x004fe1    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_13   0x0050ba    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_13   0x004fd0    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_14   0x004fbf    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_15   0x004fae    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_16   0x004f9d    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_17   0x004f8c    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_18   0x004f7b    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_19   0x004f6a    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_2   0x005088    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_2   0x004e6c    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_2   0x005162    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_20   0x004f59    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_21   0x004f48    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_22   0x004f37    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_23   0x004f26    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_24   0x004f15    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_25   0x004f04    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_26   0x004ef3    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_27   0x004ee1    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_28   0x004ed0    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_29   0x004ebf    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_3   0x005151    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_3   0x004e5b    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_3   0x005078    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_30   0x004eb9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_31   0x004eab    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_32   0x004e9f    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_4   0x005068    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_4   0x004e4a    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_4   0x005140    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_5   0x005057    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_5   0x00512f    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_6   0x00511e    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_6   0x005047    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_7   0x00510c    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_7   0x005036    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_8   0x005025    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_8   0x005102    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_9   0x0050f1    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_9   0x005014    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __tmplbl_27   0x002818    program     static                          
+              __tmplbl_31   0x0028b4    program     static                          
+              __tmplbl_40   0x000bb4    program     static                          
+              __tmplbl_42   0x0040e8    program     static                          
+              __tmplbl_43   0x00193a    program     static                          
+              __tmplbl_43   0x003f30    program     static                          
+              __tmplbl_44   0x003f16    program     static                          
+              __tmplbl_45   0x00193a    program     static                          
+              __tmplbl_47   0x00193a    program     static                          
+              __tmplbl_48   0x00193a    program     static                          
+              __tmplbl_50   0x00193a    program     static                          
+              __tmplbl_52   0x00193a    program     static                          
+              __tmplbl_53   0x00193a    program     static                          
+              __tmplbl_55   0x00193a    program     static                          
+              __tmplbl_57   0x00193a    program     static                          
+              __tmplbl_58   0x00193a    program     static                          
+              __tmplbl_82   0x000bb4    program     static                          
+              __tmplbl_85   0x003668    program     static                          
+            __zero_memory   0x005d42    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                _do_cinit   0x00596a    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                   _false   0x005cca    program     static                          
+                  _sincos   0x0048a0    program     extern C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                 _startup   0x005d62    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+              _usart_putc   0x005d7e    program     extern C:\MCC18\v3_39\src\pmc_common\USART\_usartpc.asm
+               _user_putc   0x005dde    program     extern C:\MCC18\v3_39\src\traditional\stdclib\_user_putc.c
+            command_write   0x0054b2    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                compare_l   0x005d58    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                copy_loop   0x0059dc    program     static                          
+            copy_one_byte   0x0059e2    program     static                          
+               data_write   0x00546a    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                     done   0x005a06    program     static                          
+             done_copying   0x0059f0    program     static                          
+                     fabs   0x005bd2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\fabs.c
+           frequencyrange   0x000256    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                  isdigit   0x005cfe    program     extern C:\MCC18\v3_39\src\traditional\stdclib\isdigit.asm
+                 jANotInf   0x0042aa    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jANotInf   0x004472    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                 jANotInf   0x0043cc    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                 jANotNeg   0x00433e    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jANotZero   0x0043e0    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+              jAandWsetup   0x00430e    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                  jAisNeg   0x004872    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                 jAltBexp   0x0042fc    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jBANotInf   0x0042a0    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jBNotInf   0x0042b8    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+              jBothFinite   0x004480    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+             jBothNotZero   0x004814    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+             jBothNotZero   0x00448c    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+            jDifOrPosSign   0x0042cc    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                      jEQ   0x004830    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                     jEnd   0x005b86    program     static C:\MCC18\v3_39\src\traditional\stdclib\strlen.asm
+                     jEnd   0x005bbe    program     static C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+                    jExch   0x00483c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                    jExit   0x0045d4    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                    jExit   0x004632    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jExit   0x0047e2    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                   jExpEQ   0x004882    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jFinal   0x004866    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+               jFinalSign   0x0043a6    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jHaveZero   0x004488    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                jI2F08Beg   0x004242    program     static C:\MCC18\v3_39\src\traditional\math\cast08FP.asm
+                jI2F16Beg   0x00426a    program     static C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                jI2F32Beg   0x00475c    program     static C:\MCC18\v3_39\src\traditional\math\cast32FP.asm
+                    jLoop   0x0045bc    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                    jLoop   0x004612    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jLoop   0x0047b6    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                    jLoop   0x004408    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    jLoop   0x005b7c    program     static C:\MCC18\v3_39\src\traditional\stdclib\strlen.asm
+                    jLoop   0x005ba6    program     static C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+                jLoopExit   0x004622    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                jLoopExit   0x0045ca    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                jLoopExit   0x0047ca    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                   jMatch   0x005d1e    program     static C:\MCC18\v3_39\src\traditional\stdclib\isdigit.asm
+                     jMax   0x004786    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                     jMax   0x004598    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                     jMax   0x0045e6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x0045a2    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x0045f4    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x004798    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  jMaxPos   0x00459c    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  jMaxPos   0x0045ea    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxPos   0x00478a    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                      jNE   0x004834    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                    jNext   0x00442e    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                jNoAdjust   0x00442c    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                  jNoExch   0x00485c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                 jNoMatch   0x005d20    program     static C:\MCC18\v3_39\src\traditional\stdclib\isdigit.asm
+             jNotBothZero   0x0042d0    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                  jNotInf   0x004602    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jNotInf   0x0045ac    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  jNotInf   0x0047a4    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  jPkLoop   0x00467a    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0046c4    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0046ac    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkShiftDone   0x004696    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x004650    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                  jRotate   0x00488e    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jShift   0x004878    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+               jShiftDone   0x004366    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jShiftLoop   0x004358    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jSignDone   0x004396    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+              jSignedZero   0x0043d6    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                 jSignsEQ   0x004818    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jUnpkA1   0x0046ee    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x004706    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0046fc    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00471e    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x004736    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x00472c    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x004710    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jWNotNeg   0x004352    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                   jWr123   0x004790    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  jWrZ123   0x0047a0    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                    jZero   0x0045a8    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                    jZero   0x0045fc    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jZero   0x00479e    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+               jZero1and2   0x004654    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                     loop   0x005d72    program     static                          
+                     loop   0x005d8e    program     static C:\MCC18\v3_39\src\pmc_common\USART\_usartpc.asm
+                     loop   0x005c96    program     static                          
+                   loop_h   0x005d50    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   loop_l   0x005d5a    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     main   0x005174    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+                      msg   0x005760    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                pa_5order   0x005a8c    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                pa_7order   0x005abc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                    poten   0x0056b6    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                 proc_exe   0x0028cc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                 proc_fre   0x001ebc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                proc_type   0x001ca6    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                     putc   0x005a08    program     extern C:\MCC18\v3_39\src\traditional\stdclib\putc.c
+                 s_digits   0x005dcc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+            s_put_n_chars   0x003612    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                 sawtooth   0x001a66    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                      sin   0x005c38    program     extern C:\MCC18\v3_39\src\traditional\stdclib\sin.c
+                   sin_32   0x005adc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                 sinewave   0x001a90    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                  sprintf   0x0058be    program     extern C:\MCC18\v3_39\src\traditional\stdclib\sprintf.c
+               squarewave   0x001952    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+             string_write   0x0055a0    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                   strlen   0x005b6c    program     extern C:\MCC18\v3_39\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x005b88    program     extern C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+              switch_Init   0x005614    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+           switch_release   0x005622    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                     test   0x005984    program     static                          
+                  triwave   0x0019fa    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                 vfprintf   0x00363e    program     extern C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                 wavetype   0x000008    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               zero_block   0x005d50    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ANCON0   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ANCON0bits   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ANCON1   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ANCON1bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  BAUDCON   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 BAUDCON1   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             BAUDCON1bits   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 BAUDCON2   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             BAUDCON2bits   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              BAUDCONbits   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP1CON   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP1CONbits   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP2CON   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP2CONbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP3CON   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP3CONbits   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP4CON   0x000f73       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP4CONbits   0x000f73       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP5CON   0x000f70       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP5CONbits   0x000f70       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR1   0x000fbc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR1H   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR1L   0x000fbc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR2   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR2H   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR2L   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR3   0x000fb2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR3H   0x000fb3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR3L   0x000fb2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR4   0x000f74       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR4H   0x000f75       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR4L   0x000f74       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR5   0x000f71       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR5H   0x000f72       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR5L   0x000f71       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CM1CON   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CM1CON1   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CM1CON1bits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CM1CONbits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CM2CON   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CM2CON1   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CM2CON1bits   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CM2CONbits   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CMSTAT   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 CMSTATUS   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             CMSTATUSbits   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CMSTATbits   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CVRCON   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CVRCONbits   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDREbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRF   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRFbits   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRG   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRGbits   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRH   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRHbits   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRJ   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRJbits   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+            DelayCounter1   0x000037       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd1.asm
+            DelayCounter2   0x000036       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd2.asm
+                  ECCP1AS   0x000fbf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              ECCP1ASbits   0x000fbf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP1CON   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP1CONbits   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP1DEL   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP1DELbits   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  ECCP2AS   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              ECCP2ASbits   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP2CON   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP2CONbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP2DEL   0x000fb9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP2DELbits   0x000fb9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  ECCP3AS   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              ECCP3ASbits   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP3CON   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP3CONbits   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP3DEL   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP3DELbits   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     IPR3   0x000fa5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 IPR3bits   0x000fa5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATA   0x000f89       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATD   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATDbits   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATE   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATEbits   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATF   0x000f8e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATFbits   0x000f8e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATG   0x000f8f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATGbits   0x000f8f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATH   0x000f90       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATHbits   0x000f90       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATJ   0x000f91       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATJbits   0x000f91       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   MEMCON   0x000fcb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               MEMCONbits   0x000fcb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ODCON1   0x000fcf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ODCON1bits   0x000fcf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ODCON2   0x000fce       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ODCON2bits   0x000fce       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ODCON3   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ODCON3bits   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PADCFG1   0x000fcc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PADCFG1bits   0x000fcc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                       PC   0x000ff9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIE3   0x000fa3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIE3bits   0x000fa3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIR3   0x000fa4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIR3bits   0x000fa4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMADDR   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMADDRH   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMADDRHbits   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMADDRL   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PMCON   0x000f64       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMCONH   0x000f65       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               PMCONHbits   0x000f65       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMCONL   0x000f64       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               PMCONLbits   0x000f64       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMDIN1   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN1H   0x000f67       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN1L   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMDIN2   0x000f5e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN2H   0x000f5f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN2L   0x000f5e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDOUT1   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT1H   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT1L   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDOUT2   0x000f60       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT2H   0x000f61       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT2L   0x000f60       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PMEH   0x000f5d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMEHbits   0x000f5d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PMEL   0x000f5c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMELbits   0x000f5c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PMEN   0x000f5c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMMODE   0x000f62       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMMODEH   0x000f63       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMMODEHbits   0x000f63       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMMODEL   0x000f62       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMMODELbits   0x000f62       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMSTAT   0x000f5a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMSTATH   0x000f5b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMSTATHbits   0x000f5b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMSTATL   0x000f5a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMSTATLbits   0x000f5a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTD   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTDbits   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTF   0x000f85       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTFbits   0x000f85       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTG   0x000f86       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTGbits   0x000f86       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTH   0x000f87       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTHbits   0x000f87       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTJ   0x000f88       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTJbits   0x000f88       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      PR4   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    RCREG   0x000faf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCREG1   0x000faf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCREG2   0x000faa       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    RCSTA   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCSTA1   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               RCSTA1bits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCSTA2   0x000f9c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               RCSTA2bits   0x000f9c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                RCSTAbits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  REFOCON   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              REFOCONbits   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     SIGN   0x000022       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
+                    SPBRG   0x000fb0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SPBRG1   0x000fb0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SPBRG2   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SPBRGH1   0x000f7f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SPBRGH2   0x000f7d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP1ADD   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP1BUF   0x000fc9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP1CON1   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP1CON1bits   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP1CON2   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP1CON2bits   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP1MSK   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSP1MSKbits   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP1STAT   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP1STATbits   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP2ADD   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP2BUF   0x000f6f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP2CON1   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP2CON1bits   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP2CON2   0x000f6b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP2CON2bits   0x000f6b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP2MSK   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSP2MSKbits   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP2STAT   0x000f6d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP2STATbits   0x000f6d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T3CON   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T3CONbits   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T4CON   0x000f76       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T4CONbits   0x000f76       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR3H   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR3L   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TMR4   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISEbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISF   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISFbits   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISG   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISGbits   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISH   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISHbits   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISJ   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISJbits   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TXREG   0x000fae       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXREG1   0x000fae       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXREG2   0x000fa9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TXSTA   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXSTA1   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               TXSTA1bits   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXSTA2   0x000fa8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               TXSTA2bits   0x000fa8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TXSTAbits   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   WDTCON   0x000fc0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               WDTCONbits   0x000fc0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 __AARGB0   0x00002b       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB1   0x00002a       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB2   0x000029       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB3   0x000028       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB4   0x000027       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB5   0x000026       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB6   0x000025       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB7   0x000024       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                   __AEXP   0x00002c       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __BARGB0   0x000030       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                 __BARGB1   0x00002f       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                 __BARGB2   0x00002e       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                 __BARGB3   0x00002d       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                   __BEXP   0x000031       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                __FPFLAGS   0x000023       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000023       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
+                  __REMB0   0x000027       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB1   0x000026       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB2   0x000025       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB3   0x000024       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                   __TEMP   0x000035       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000035       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000034       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000033       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000032       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\sin.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\UnpkMath.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\fabs.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\sprintf.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+                       bo   0x000f0c       data     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                curr_byte   0x000f03       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+               curr_entry   0x000f05       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                 data_ptr   0x000f07       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                    errno   0x000f0a       data     extern C:\MCC18\v3_39\src\traditional\stdclib\errno.c
+                     prom   0x000f00       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                 wavetype   0x000008    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+           frequencyrange   0x000256    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __tmplbl_40   0x000bb4    program     static                          
+              __tmplbl_82   0x000bb4    program     static                          
+              __tmplbl_43   0x00193a    program     static                          
+              __tmplbl_45   0x00193a    program     static                          
+              __tmplbl_47   0x00193a    program     static                          
+              __tmplbl_48   0x00193a    program     static                          
+              __tmplbl_50   0x00193a    program     static                          
+              __tmplbl_52   0x00193a    program     static                          
+              __tmplbl_53   0x00193a    program     static                          
+              __tmplbl_55   0x00193a    program     static                          
+              __tmplbl_57   0x00193a    program     static                          
+              __tmplbl_58   0x00193a    program     static                          
+               squarewave   0x001952    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                  triwave   0x0019fa    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                 sawtooth   0x001a66    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                 sinewave   0x001a90    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                proc_type   0x001ca6    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                 proc_fre   0x001ebc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __tmplbl_27   0x002818    program     static                          
+              __tmplbl_31   0x0028b4    program     static                          
+                 proc_exe   0x0028cc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+        ___while_lbl00071   0x002958    program     static                          
+           ___if_lbl00073   0x002988    program     static                          
+        ___while_lbl00072   0x00298a    program     static                          
+           ___if_lbl00074   0x00298a    program     static                          
+        ___while_lbl00075   0x002a64    program     static                          
+           ___if_lbl00077   0x002bfe    program     static                          
+        ___while_lbl00076   0x002c00    program     static                          
+         ___else_lbl00106   0x002c04    program     static                          
+        ___while_lbl00078   0x002d02    program     static                          
+           ___if_lbl00080   0x002e9a    program     static                          
+        ___while_lbl00079   0x002e9c    program     static                          
+         ___else_lbl00104   0x002e9e    program     static                          
+        ___while_lbl00081   0x002fa0    program     static                          
+           ___if_lbl00083   0x0031a8    program     static                          
+        ___while_lbl00082   0x0031aa    program     static                          
+         ___else_lbl00102   0x0031ac    program     static                          
+          ___for_lbl00086   0x0032e0    program     static                          
+          ___for_lbl00084   0x003324    program     static                          
+          ___for_lbl00085   0x00332a    program     static                          
+        ___while_lbl00087   0x0033fa    program     static                          
+           ___do_lbl00092   0x0033fe    program     static                          
+           ___do_lbl00089   0x003484    program     static                          
+           ___if_lbl00091   0x003484    program     static                          
+           ___do_lbl00090   0x003498    program     static                          
+        ___while_lbl00088   0x00349a    program     static                          
+         ___else_lbl00100   0x00349c    program     static                          
+        ___while_lbl00093   0x003534    program     static                          
+           ___do_lbl00098   0x003538    program     static                          
+           ___do_lbl00095   0x0035e4    program     static                          
+           ___if_lbl00097   0x0035e4    program     static                          
+           ___do_lbl00096   0x0035f8    program     static                          
+       ___return_lbl00070   0x0035fa    program     static                          
+           ___if_lbl00105   0x0035fa    program     static                          
+           ___if_lbl00103   0x0035fa    program     static                          
+           ___if_lbl00101   0x0035fa    program     static                          
+        ___while_lbl00094   0x0035fa    program     static                          
+           ___if_lbl00099   0x0035fa    program     static                          
+            s_put_n_chars   0x003612    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                 vfprintf   0x00363e    program     extern C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+              __tmplbl_85   0x003668    program     static                          
+              __tmplbl_44   0x003f16    program     static                          
+              __tmplbl_43   0x003f30    program     static                          
+                   __pa_0   0x003f52    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x003f5a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x003f64    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x003f6e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x003f86    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x003f9a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x003fb6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x003fc0    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x003fcc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x003fee    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x00400e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x00401c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x004032    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x00404c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x004064    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x004074    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x00408a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x00409c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x0040ae    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x0040b8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x0040c8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x0040d8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x0040e8    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+              __tmplbl_42   0x0040e8    program     static                          
+                  __pa_23   0x0040f4    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x004102    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x00410a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x004114    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x00411e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x004126    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x004134    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x004150    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x00416a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x004184    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x00419c    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x0041a6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x0041b4    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x0041bc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x0041c6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x0041d6    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x0041e4    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x0041f0    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x0041fc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x004204    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x00420e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x004214    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x00421e    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x00422a    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                 FLO0832U   0x004234    program     extern C:\MCC18\v3_39\src\traditional\math\cast08FP.asm
+                 FLO0832S   0x004238    program     extern C:\MCC18\v3_39\src\traditional\math\cast08FP.asm
+                jI2F08Beg   0x004242    program     static C:\MCC18\v3_39\src\traditional\math\cast08FP.asm
+                 FLO1632U   0x004256    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x00425a    program     extern C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x00426a    program     static C:\MCC18\v3_39\src\traditional\math\cast16FP.asm
+                    FPS32   0x004280    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                    FPA32   0x004282    program     extern C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jBANotInf   0x0042a0    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jANotInf   0x0042aa    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jBNotInf   0x0042b8    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+            jDifOrPosSign   0x0042cc    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+             jNotBothZero   0x0042d0    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jAltBexp   0x0042fc    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+              jAandWsetup   0x00430e    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jANotNeg   0x00433e    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                 jWNotNeg   0x004352    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jShiftLoop   0x004358    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jShiftDone   0x004366    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                jSignDone   0x004396    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+               jFinalSign   0x0043a6    program     static C:\MCC18\v3_39\src\traditional\math\addFP.asm
+                    FPD32   0x0043ae    program     extern C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                 jANotInf   0x0043cc    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+              jSignedZero   0x0043d6    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                jANotZero   0x0043e0    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    jLoop   0x004408    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                jNoAdjust   0x00442c    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    jNext   0x00442e    program     static C:\MCC18\v3_39\src\traditional\math\divFP.asm
+                    FPM32   0x004454    program     extern C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                 jANotInf   0x004472    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+              jBothFinite   0x004480    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                jHaveZero   0x004488    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+             jBothNotZero   0x00448c    program     static C:\MCC18\v3_39\src\traditional\math\mulFP.asm
+                 FXM1616S   0x00452e    program     extern C:\MCC18\v3_39\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x00457a    program     static C:\MCC18\v3_39\src\traditional\math\fxm1616s.asm
+                  INT3208   0x004588    program     extern C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                     jMax   0x004598    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  jMaxPos   0x00459c    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x0045a2    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                    jZero   0x0045a8    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  jNotInf   0x0045ac    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                    jLoop   0x0045bc    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                jLoopExit   0x0045ca    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                    jExit   0x0045d4    program     static C:\MCC18\v3_39\src\traditional\math\castFP08.asm
+                  INT3216   0x0045d6    program     extern C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                     jMax   0x0045e6    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxPos   0x0045ea    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x0045f4    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jZero   0x0045fc    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                  jNotInf   0x004602    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jLoop   0x004612    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                jLoopExit   0x004622    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+                    jExit   0x004632    program     static C:\MCC18\v3_39\src\traditional\math\castFP16.asm
+            __FpReturnNaN   0x004634    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                 __FpExit   0x004640    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x004642    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x004646    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00464c    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x004650    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+               jZero1and2   0x004654    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00465a    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00465e    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x004666    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                 __FpPack   0x00466c    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+                  jPkLoop   0x00467a    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkShiftDone   0x004696    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0046ac    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpReturnW   0x0046c4    program     extern C:\MCC18\v3_39\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0046c4    program     static C:\MCC18\v3_39\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0046e4    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x0046ee    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0046fc    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x004706    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x004710    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x004714    program     extern C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00471e    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x00472c    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x004736    program     static C:\MCC18\v3_39\src\traditional\math\UnpackFP.asm
+                 FLO3232U   0x004740    program     extern C:\MCC18\v3_39\src\traditional\math\cast32FP.asm
+                 FLO3232S   0x004744    program     extern C:\MCC18\v3_39\src\traditional\math\cast32FP.asm
+                jI2F32Beg   0x00475c    program     static C:\MCC18\v3_39\src\traditional\math\cast32FP.asm
+                  INT3232   0x004776    program     extern C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                     jMax   0x004786    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  jMaxPos   0x00478a    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                   jWr123   0x004790    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  jMaxNeg   0x004798    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                    jZero   0x00479e    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  jWrZ123   0x0047a0    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  jNotInf   0x0047a4    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                    jLoop   0x0047b6    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                jLoopExit   0x0047ca    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                    jExit   0x0047e2    program     static C:\MCC18\v3_39\src\traditional\math\castFP32.asm
+                  TALTB32   0x0047e4    program     extern C:\MCC18\v3_39\src\traditional\math\ltFP.asm
+              __FpCompare   0x0047f6    program     extern C:\MCC18\v3_39\src\traditional\math\compFP.asm
+             jBothNotZero   0x004814    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                 jSignsEQ   0x004818    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                      jEQ   0x004830    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                      jNE   0x004834    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                    jExch   0x00483c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jNoExch   0x00485c    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jFinal   0x004866    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jAisNeg   0x004872    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jShift   0x004878    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                   jExpEQ   0x004882    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  jRotate   0x00488e    program     static C:\MCC18\v3_39\src\traditional\math\compFP.asm
+                  _sincos   0x0048a0    program     extern C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_0   0x004c8e    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_1   0x004ca6    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_2   0x004cc2    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_3   0x004cdc    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_4   0x004ce6    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_5   0x004cfc    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_6   0x004d12    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_7   0x004d24    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_8   0x004d3e    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                   __pa_9   0x004d58    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_10   0x004d62    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_11   0x004d74    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_12   0x004d82    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_13   0x004d88    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_14   0x004da2    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_15   0x004db4    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_16   0x004dd8    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_17   0x004dea    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_18   0x004df8    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_19   0x004e0a    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_20   0x004e1a    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_21   0x004e26    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_22   0x004e30    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_23   0x004e38    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __pa_24   0x004e3e    program     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+               __string_4   0x004e4a    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_3   0x004e5b    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_2   0x004e6c    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_1   0x004e7d    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __string_0   0x004e8e    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+              __string_32   0x004e9f    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_31   0x004eab    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_30   0x004eb9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_29   0x004ebf    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_28   0x004ed0    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_27   0x004ee1    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_26   0x004ef3    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_25   0x004f04    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_24   0x004f15    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_23   0x004f26    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_22   0x004f37    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_21   0x004f48    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_20   0x004f59    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_19   0x004f6a    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_18   0x004f7b    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_17   0x004f8c    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_16   0x004f9d    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_15   0x004fae    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_14   0x004fbf    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_13   0x004fd0    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_12   0x004fe1    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_11   0x004ff2    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_10   0x005003    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_9   0x005014    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_8   0x005025    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_7   0x005036    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_6   0x005047    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_5   0x005057    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_4   0x005068    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_3   0x005078    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_2   0x005088    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_1   0x005098    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+               __string_0   0x0050a9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+              __string_13   0x0050ba    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_12   0x0050cb    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_11   0x0050da    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              __string_10   0x0050e9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_9   0x0050f1    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_8   0x005102    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_7   0x00510c    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_6   0x00511e    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_5   0x00512f    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_4   0x005140    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_3   0x005151    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+               __string_2   0x005162    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                     main   0x005174    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+                  InitSPI   0x005426    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                WriteGPIO   0x005434    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+               data_write   0x00546a    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+            command_write   0x0054b2    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                LCD_Reset   0x0054f8    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                LCD_Line1   0x00554c    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                LCD_Line2   0x005576    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+             string_write   0x0055a0    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+              switch_Init   0x005614    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+           switch_release   0x005622    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                ADC_Init1   0x005680    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                ADC_Init2   0x00569a    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                    poten   0x0056b6    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                      msg   0x005760    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                _UnpkMath   0x0057a2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\UnpkMath.c
+                   __pa_0   0x0058b0    program     static C:\MCC18\v3_39\src\traditional\stdclib\UnpkMath.c
+                  sprintf   0x0058be    program     extern C:\MCC18\v3_39\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x00596a    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                     test   0x005984    program     static                          
+                copy_loop   0x0059dc    program     static                          
+            copy_one_byte   0x0059e2    program     static                          
+             done_copying   0x0059f0    program     static                          
+                     done   0x005a06    program     static                          
+       ___return_lbl00002   0x005a06    program     static                          
+                     putc   0x005a08    program     extern C:\MCC18\v3_39\src\traditional\stdclib\putc.c
+                pa_5order   0x005a8c    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                pa_7order   0x005abc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                   sin_32   0x005adc    program     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                  FXM3232   0x005afc    program     extern C:\MCC18\v3_39\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x005b6a    program     static                          
+                   strlen   0x005b6c    program     extern C:\MCC18\v3_39\src\traditional\stdclib\strlen.asm
+                    jLoop   0x005b7c    program     static C:\MCC18\v3_39\src\traditional\stdclib\strlen.asm
+                     jEnd   0x005b86    program     static C:\MCC18\v3_39\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x005b88    program     extern C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x005ba6    program     static C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x005bbc    program     static C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x005bbe    program     static C:\MCC18\v3_39\src\traditional\stdclib\slenpgm.asm
+                     fabs   0x005bd2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\fabs.c
+                      sin   0x005c38    program     extern C:\MCC18\v3_39\src\traditional\stdclib\sin.c
+                 FXD3232U   0x005c88    program     extern C:\MCC18\v3_39\src\traditional\math\fxd3232u.c
+                     loop   0x005c96    program     static                          
+                   _false   0x005cca    program     static                          
+       ___return_lbl00000   0x005cce    program     static                          
+             Delay10KTCYx   0x005cd0    program     extern C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x005cda    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x005cdc    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x005ce0    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x005ce8    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x005cec    program     static C:\MCC18\v3_39\src\traditional\delays\d10ktcyx.asm
+                  isdigit   0x005cfe    program     extern C:\MCC18\v3_39\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x005d1e    program     static C:\MCC18\v3_39\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x005d20    program     static C:\MCC18\v3_39\src\traditional\stdclib\isdigit.asm
+              Delay1KTCYx   0x005d22    program     extern C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x005d2c    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+                    D1K_1   0x005d2e    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0010   0x005d32    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x005d38    program     static C:\MCC18\v3_39\src\traditional\delays\d1ktcyx.asm
+            __zero_memory   0x005d42    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               zero_block   0x005d50    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   loop_h   0x005d50    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                compare_l   0x005d58    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   loop_l   0x005d5a    program     static C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 _startup   0x005d62    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                     loop   0x005d72    program     static                          
+       ___return_lbl00001   0x005d7c    program     static                          
+              _usart_putc   0x005d7e    program     extern C:\MCC18\v3_39\src\pmc_common\USART\_usartpc.asm
+                     loop   0x005d8e    program     static C:\MCC18\v3_39\src\pmc_common\USART\_usartpc.asm
+             Delay100TCYx   0x005d9a    program     extern C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0008   0x005da2    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+                    D100x   0x005da6    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+                   D100_1   0x005da8    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x005dac    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x005db2    program     static C:\MCC18\v3_39\src\traditional\delays\d100tcyx.asm
+              Delay10TCYx   0x005db6    program     extern C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+                     D10x   0x005dbe    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x005dc0    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x005dc2    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x005dc4    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x005dc6    program     static C:\MCC18\v3_39\src\traditional\delays\d10tcyx.asm
+                 s_digits   0x005dcc    program     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+               _user_putc   0x005dde    program     extern C:\MCC18\v3_39\src\traditional\stdclib\_user_putc.c
+                   __init   0x005de0    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
+               __config_0   0x01fff8    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_1   0x01fff9    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_2   0x01fffa    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_3   0x01fffb    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_4   0x01fffc    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+               __config_5   0x01fffd    program     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\sin.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\sincos.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\UnpkMath.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\fabs.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\sprintf.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\main.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\spi_LCD.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\switch_poten.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\proc.c
+                  __tmp_0   0x000000       data     static F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000000       data     static C:\MCC18\v3_39\src\traditional\stdclib\vfprintf.c
+                     SIGN   0x000022       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000023       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000023       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
+                  __REMB3   0x000024       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB7   0x000024       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB2   0x000025       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB6   0x000025       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB1   0x000026       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB5   0x000026       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB0   0x000027       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB4   0x000027       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB3   0x000028       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB2   0x000029       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB1   0x00002a       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __AARGB0   0x00002b       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                   __AEXP   0x00002c       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                 __BARGB3   0x00002d       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                 __BARGB2   0x00002e       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                 __BARGB1   0x00002f       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                 __BARGB0   0x000030       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                   __BEXP   0x000031       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
+                 __TEMPB3   0x000032       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000033       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000034       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                   __TEMP   0x000035       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000035       data     extern C:\MCC18\v3_39\src\traditional\math\temparg.asm
+            DelayCounter2   0x000036       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x000037       data     extern C:\MCC18\v3_39\src\traditional\delays\delayd1.asm
+                     prom   0x000f00       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                curr_byte   0x000f03       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+               curr_entry   0x000f05       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                 data_ptr   0x000f07       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                    errno   0x000f0a       data     extern C:\MCC18\v3_39\src\traditional\stdclib\errno.c
+                       bo   0x000f0c       data     extern F:\Y2(SPR)\H61RTS CN Introduction to Real-Time Systems\Report\Mini_Proj\FI\generator.c
+              PMSTATLbits   0x000f5a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMSTATL   0x000f5a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMSTAT   0x000f5a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMSTATHbits   0x000f5b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMSTATH   0x000f5b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PMEN   0x000f5c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMELbits   0x000f5c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PMEL   0x000f5c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMEHbits   0x000f5d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PMEH   0x000f5d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN2L   0x000f5e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMDIN2   0x000f5e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN2H   0x000f5f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT2L   0x000f60       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDOUT2   0x000f60       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT2H   0x000f61       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMMODELbits   0x000f62       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMMODEL   0x000f62       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMMODE   0x000f62       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMMODEHbits   0x000f63       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMMODEH   0x000f63       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PMCON   0x000f64       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               PMCONLbits   0x000f64       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMCONL   0x000f64       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMCONH   0x000f65       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               PMCONHbits   0x000f65       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMDIN1   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN1L   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDIN1H   0x000f67       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT1L   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMDOUT1   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMADDRL   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PMADDR   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PMDOUT1H   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PMADDRHbits   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PMADDRH   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CMSTAT   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CMSTATbits   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             CMSTATUSbits   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 CMSTATUS   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP2CON2bits   0x000f6b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP2CON2   0x000f6b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP2CON1bits   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP2CON1   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP2STATbits   0x000f6d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP2STAT   0x000f6d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSP2MSKbits   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP2MSK   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP2ADD   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP2BUF   0x000f6f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP5CON   0x000f70       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP5CONbits   0x000f70       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR5   0x000f71       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR5L   0x000f71       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR5H   0x000f72       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP4CON   0x000f73       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP4CONbits   0x000f73       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR4   0x000f74       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR4L   0x000f74       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR4H   0x000f75       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T4CONbits   0x000f76       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T4CON   0x000f76       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CVRCON   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CVRCONbits   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      PR4   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TMR4   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T3CON   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T3CONbits   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR3L   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR3H   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 BAUDCON2   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             BAUDCON2bits   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SPBRGH2   0x000f7d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  BAUDCON   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 BAUDCON1   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             BAUDCON1bits   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              BAUDCONbits   0x000f7e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SPBRGH1   0x000f7f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTDbits   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTD   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTF   0x000f85       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTFbits   0x000f85       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTG   0x000f86       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTGbits   0x000f86       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTH   0x000f87       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTHbits   0x000f87       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                PORTJbits   0x000f88       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PORTJ   0x000f88       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATA   0x000f89       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATDbits   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATD   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATEbits   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATE   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATFbits   0x000f8e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATF   0x000f8e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATGbits   0x000f8f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATG   0x000f8f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATH   0x000f90       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATHbits   0x000f90       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 LATJbits   0x000f91       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     LATJ   0x000f91       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISEbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDREbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISFbits   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISF   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRF   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRFbits   0x000f97       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRGbits   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRG   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISG   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISGbits   0x000f98       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRH   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRHbits   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISHbits   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISH   0x000f99       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 DDRJbits   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TRISJbits   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     DDRJ   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TRISJ   0x000f9a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCSTA2   0x000f9c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               RCSTA2bits   0x000f9c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIE3bits   0x000fa3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIE3   0x000fa3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PIR3   0x000fa4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 PIR3bits   0x000fa4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     IPR3   0x000fa5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 IPR3bits   0x000fa5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               TXSTA2bits   0x000fa8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXSTA2   0x000fa8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXREG2   0x000fa9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCREG2   0x000faa       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SPBRG2   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    RCSTA   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCSTA1   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               RCSTA1bits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                RCSTAbits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                TXSTAbits   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               TXSTA1bits   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXSTA1   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TXSTA   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TXREG   0x000fae       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TXREG1   0x000fae       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    RCREG   0x000faf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   RCREG1   0x000faf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SPBRG1   0x000fb0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    SPBRG   0x000fb0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP3CONbits   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP3CON   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP3CONbits   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP3CON   0x000fb1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR3L   0x000fb2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR3   0x000fb2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR3H   0x000fb3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP3DELbits   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP3DEL   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              ECCP3ASbits   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  ECCP3AS   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP2CONbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP2CON   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP2CON   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP2CONbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR2   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR2L   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR2H   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP2DEL   0x000fb9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP2DELbits   0x000fb9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  ECCP2AS   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              ECCP2ASbits   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CCP1CONbits   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CCP1CON   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP1CON   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP1CONbits   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR1L   0x000fbc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    CCPR1   0x000fbc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CCPR1H   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             ECCP1DELbits   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 ECCP1DEL   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              ECCP1ASbits   0x000fbf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  ECCP1AS   0x000fbf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   WDTCON   0x000fc0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               WDTCONbits   0x000fc0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ANCON0bits   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ANCON0   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ANCON1bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ANCON1   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP1CON2   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP1CON2bits   0x000fc5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP1CON1   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP1CON1bits   0x000fc6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 SSP1STAT   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+             SSP1STATbits   0x000fc7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP1ADD   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP1MSK   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              SSP1MSKbits   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  SSP1BUF   0x000fc9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   MEMCON   0x000fcb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               MEMCONbits   0x000fcb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PADCFG1   0x000fcc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              PADCFG1bits   0x000fcc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ODCON3   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ODCON3bits   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ODCON2   0x000fce       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ODCON2bits   0x000fce       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   ODCON1   0x000fcf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               ODCON1bits   0x000fcf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CM2CON   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CM2CON1   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CM2CONbits   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CM2CON1bits   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  CM1CON1   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              CM1CON1bits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   CM1CON   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               CM1CONbits   0x000fd2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              REFOCONbits   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  REFOCON   0x000fd3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                       PC   0x000ff9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F87J11.asm
+
+
